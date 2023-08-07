@@ -9,8 +9,8 @@ class sample {
       }
 };
 int main(){
-      sample obj1;
-      cin>>obj1.x>>obj1.y;
+      sample *obj1 = new sample();
+      cin>>obj1->x>>obj1->y;
 
-      cout<<obj1.x<<endl<<obj1.y<<endl<<obj1.sum(obj1.x,obj1.y);
+      cout<<obj1->x<<endl<<obj1->y<<endl<<obj1->sum(obj1->x,obj1->y);
 }
