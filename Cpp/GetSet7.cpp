@@ -15,6 +15,7 @@ class organic{
 };
 int main(){
       organic yousuf;
+      //Statically allocation
       yousuf.health=21;
       yousuf.setlevel('A');
       std::cout<<"Health is: "<<yousuf.health<<std::endl;
