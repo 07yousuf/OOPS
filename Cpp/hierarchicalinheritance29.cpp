@@ -2,15 +2,15 @@
 using namespace std;
 class Human{
       int age;
-      string phylosopy,character;
+      string philosophy,character;
       public:
       void set(int a,string b,string c){
             age = a;
-            phylosopy = b;
+            philosophy = b;
             character = c;
       }
       void show(){
-            cout<<age<<endl<<phylosopy<<endl<<character<<endl;
+            cout<<age<<endl<<philosophy<<endl<<character<<endl;
 
       }
 };
